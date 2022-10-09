@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar .navbar-brand {
+  color: #fdcc52;
+}
+
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+.menuLinks {
+  color: lightgrey;
+}
+.menuLinks:hover {
+  color: white;
+}
+
+.startNow-btn {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in;
+}
+.startNow-btn:hover {
+  background-color: #fdcc52;
+}
+
+.letsStart-btn {
+  background-color: transparent;
+  border-color: white;
+  transition: background-color 0.3s ease-in;
+  transition: border-color 0.3 ease-in;
+}
+
+.letsStart-btn:hover {
+  background-color: #fdcc52;
+  border-color: #fdcc52;
+}
+
+.rounded-btn {
+  border-radius: 30px;
+}
+header {
+  background: transparent;
+}
+
+#bg__patterned {
+  background-image: url("./assets/img/bg-pattern.png"),
+    linear-gradient(to right, rgba(218, 36, 49), rgba(125, 67, 151));
+}
+
+.jumbotron {
+  background-color: rgb(254, 201, 71);
+}
+
+#bg__cta {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./assets/img/bg-cta.jpg);
+  height: 500px;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.fa-heart {
+  color: rgb(255, 80, 36);
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in;
+}
+
+.brands:hover {
+  opacity: 100;
+}
+
+.brands a {
+  color: white;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.facebook {
+  background-color: #4267b2;
+}
+
+.google {
+  background-color: #db4a39;
+}
+
+.copyright {
+  color: grey;
+}
+.footerLinks a {
+  color: grey;
+}
+.footerLinks a:hover {
+  color: #fdcc52;
+}
+
+.bg-yellow {
+  background-color: #fdcc52;
+}
+
+.unlimitedIcons {
+  color: rgb(172, 52, 100);
+}
+.unlimitedText {
+  font-size: 1.3rem;
+}
+
+.hovered {
+  color: black;
+}
+.hovered:hover {
+  color: #fdcc52;
+}
+
+.title-menu {
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+
+.btn-navlinks {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.para,
+footer {
+  font-family: Mulish, Helvetica, Arial, sans-serif;
+}
